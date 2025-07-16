@@ -58,4 +58,3 @@ I use this repository to:
 
 **Malik Musadiq Ahmed**  
 Aspiring Frontend Developer  
-_PIAIC & GIAIC Student | Learning HTML, CSS, and Web Development_

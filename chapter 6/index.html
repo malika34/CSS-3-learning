@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Size Units in Depth: Unlocking the Power of px, %, vw, vh, em, and rem</title>
+    <style>
+        .parent {
+            background-color: red;
+            border: 2px solid black;
+            width: 50%
+        }
+
+        .child {
+            background-color: yellow;
+            color: darkblue;
+            border: 2px solid black;
+            width: 50%;
+        }
+
+        .container {
+            border: 2px solid black;
+            width: 50vw;
+            height: 50vh;
+            background-color: blanchedalmond;
+        }
+
+        .container2 {
+            border: 2px solid black;
+            width: 50vw;
+            font-size: 10px;
+        }
+
+        .box2 {
+            font-size: 10em;
+        }
+
+        .container3 {
+            border: 2px solid rebeccapurple;
+            font-size: 20px;
+        }
+
+        .box3 {
+            font-size: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Size Units in CSS</h1>
+    <h2>Whats wrong with pixels?</h2>
+    <p>Pixels are relative to the viewing device. for a device with Size 1920x 1080, 1px is I unit out of 1080/1920</p>
+    <h2>Relative lengths</h2>
+    <p>These units are relative to the other length property following are some of the most commonly used relative
+        lengths</p>
+
+    <h3>There are more units for describing size other than px There are rem,cm,vw, vh, percentages etc.</h3>
+    <!-- Percentage % Unit -->
+    <h2>1- Perecentage % Unit</h2>
+    <p>% + unit relative to the parent element</p>
+    <div class="parent">
+        <div class="child">
+            This is child div
+        </div>
+    </div>
+    <!-- viewport width and height-->
+    <h2>viewport width vw</h2>
+    <p>Vw unit relative to 1% viewport width</p>
+    <p>same goes for vh viewport height</p>
+    <div class="container">
+        <div class="box">
+            I am box!!
+        </div>
+    </div>
+    <!-- em -->
+    <h2>em</h2>
+    <p>em unit relative to the parent font Size</p>
+    <div class="container2">
+        <div class="box2">
+            this is box 2
+        </div>
+    </div>
+    <!-- rem -->
+    <h2>rem</h2>
+    <p>unit relative to the root font size (<Html> tag)</p>
+    <div class="container3">
+        <div class="box3">
+            hey i am box 3!!
+        </div>
+    </div>
+</body>
+
+</html>

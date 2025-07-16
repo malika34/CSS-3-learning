@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadow Effects - Box Shadow && Text Shadow</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: antiquewhite;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .box {
+            background-color: antiquewhite;
+            height: 380px;
+            width: 380px;
+            border: 2px solid black;
+            box-shadow: 18px 10px 5px 10px burlywood;
+            box-shadow: inset 10px 10px 2px 4px yellow;
+        }
+
+        h2 {
+            text-shadow: 3px 2px 1px greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="nike-logo.png" alt="Nike-logo">
+            <h2>CSS Shadow Effects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ex sed a neque voluptas illum pariatur
+                error et ad? Natus nesciunt neque totam aliquam!</p>
+        </div>
+    </div>
+</body>
+
+</html>

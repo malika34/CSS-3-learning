@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering CSS Position Property: Static, Relative, Absolute, Fixed, and Sticky</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            position: relative;
+            height: 5000px;
+        }
+
+        .img-1 {
+            position: relative;
+            top: 100px;
+        }
+
+        .img-2 {
+            position: absolute;
+            top: 100px;
+            z-index: 2;
+        }
+
+        .img-3 {
+            position: sticky;
+            top: 0;
+        }
+
+        .img-4 {
+            position: fixed;
+            top: 325px;
+            left: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Position Properties in CSS</h1>
+    <p>The postion bropety Uoed to manipulate the location of an element
+        following are the possible Values:</p>
+    <!-- Static -->
+    <h2>Static</h2>
+    <p>The default position. top/bottomn left/righk/z-index has no effect</p>
+    <!-- relative -->
+    <h2>Relative</h2>
+    <p>The top/bottom/left/right/z-index will now work.
+        Otherwise the element is in the flow of document like static.</p>
+    <!-- absolute -->
+    <h2>Absolute</h2>
+    <p>The Element is removed from the flow & is relatively positioned to its first non-static ancestor. top/bottom etc
+        works</p>
+    <!-- fixed -->
+    <h2>Fixed</h2>
+    <p>Just like absolute except the element is positioned relative to the browser window
+    </p>
+    <!-- sticky -->
+    <h2>Sticky</h2>
+    <p>The element is positioned based on user's Scroll position</p>
+    <div class="container">
+        <img class="img-1" src="1.jpg" alt="img-1" width="250px" height="250px">
+        <img class="img-2" src="2.jpg" alt="img-2" width="250px" height="250px">
+        <img class="img-3" src="3.jpg" alt="img-3" width="250px" height="250px">
+        <img class="img-4" src="4.jpg" alt="img-4" width="250px" height="250px">
+    </div>
+
+</body>
+
+</html>

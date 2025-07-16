@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering inline, internal & external CSS</title>
+    <style>
+        /* element selector */
+        h2 {
+            background-color: red;
+            /* !important term applied first */
+            color: white;
+        }
+
+        /* Here we can group selectors like this */
+        h1,
+        h2 {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Thee ways to add CSS to HTML -->
+    <h1>Three ways to add CSS to HTML</h1>
+    <p>inline, internal & external CSS</p>
+
+    <!-- Style tag/Inline CSS -->
+    <h2 style="background-color: black; color: white;">Inline CSS</h2>
+    <p>Here we can add inline CSS using style tag</p>
+
+    <!-- Internal CSS -->
+    <h2>Internal CSS</h2>
+    <p>Here we can add internal css using style tag in head</p>
+
+    <!-- External CSS -->
+    <h2>External CSS</h2>
+    <p>Here we can add external CSS by creating a file using style.css</p>
+
+    <!-- Css selectors -->
+    <!-- A CSS selector is used to select an HTML elements for Styling -->
+
+    <!-- Element selector -->
+    <h2>Element selector</h2>
+    <p>We can use tags for applying the css e.g. <i>ariticle,body,heading tags etc</i></p>
+
+    <!-- Class selector  -->
+    <h2>Class selector</h2>
+    <p class="classpara">It is used to select an element with a given class</p>
+
+    <!-- Id selector -->
+    <h2>Id selector</h2>
+    <p id="idpara">It is used to select an element with a given id</p>
+
+</body>
+
+</html>

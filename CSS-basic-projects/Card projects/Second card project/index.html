@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second card - project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: #DAE2F8;
+            background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
+            background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            height: 530px;
+            width: 320px;
+            border: 1px solid black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 25%;
+            border-radius: 8%;
+        }
+
+        .textBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            padding: 19px;
+        }
+
+        .textBox h2 {
+            font-size: 1.2rem;
+        }
+
+        .textBox p {
+            font-size: 1rem;
+        }
+
+        .musicContent {
+            display: flex;
+            align-items: center;
+            gap: 0 8px;
+        }
+
+        .musicplayerBox {
+            background-color: lightblue;
+            width: 85%;
+            height: 12%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0 0.8em;
+        }
+
+        .musicContent img {
+            width: 15%;
+        }
+
+        .button {
+            width: 85%;
+            height: 9%;
+            background-color: darkblue;
+            color: white;
+            padding-top: 0.8em;
+            border-radius: 10px;
+            box-shadow: 0px 4px 5px black;
+            cursor: pointer;
+        }
+
+        .cancelOrder {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="gaming.jpeg" alt="gaming">
+            <div class="textBox">
+                <h2>Order summary</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptates facilis culpa corrupti
+                    quam
+                    perferendis adipisci cum aliquam voluptatibus quae.</p>
+            </div>
+            <div class="musicplayerBox">
+                <div class="musicContent">
+                    <img src="music.jpeg" alt="music">
+                    <div>
+                        <p>Annual Plan</p>
+                        <p>$99.9/Year</p>
+                    </div>
+                </div>
+                <a href="#">Change</a>
+            </div>
+            <div class="button">
+                Proceed Payment
+            </div>
+            <a href="#" class="cancelOrder">Cancel Order</a>
+        </div>
+    </div>
+</body>
+
+</html>

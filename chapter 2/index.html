@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Typography:Fonts, Colors & Developer tools</title>
+    <style>
+        /* Fonts properties */
+        p {
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-variant: normal;
+            line-height: 30px;
+        }
+
+        /* colors */
+        /* normal specific colors */
+        #firstPara {
+            background-color: darkblue;
+            color: white;
+        }
+
+        /* rgb colors */
+        #secondPara {
+            background-color: rgb(100, 110, 192);
+            color: rgb(32, 239, 0);
+        }
+
+        /* rgba colors */
+        /* we use alpha component for changing the opacity of the color */
+        #thirdPara {
+            background-color: rgba(31, 209, 46, 0.51);
+        }
+
+        /* Hexadecimal colors */
+        .classSelector {
+            background-color: #a66330;
+            color: #159ebdb6;
+        }
+
+        /* Hsl colors */
+        #fourthPara {
+            background-color: hsl(0, 84%, 37%);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>CSS Typography:Fonts, Colors & Developer tools</h1>
+    <h2>CSS fonts</h2>
+    <p id="firstPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quis ea sit quibusdam
+        asperiores deserunt
+        sed facilis modi ducimus, reprehenderit mollitia laborum nulla doloremque temporibus enim consectetur optio
+        alias adipisci sapiente tenetur ex molestias dolores? Velit consequatur quisquam minus. Inventore cum,
+        repudiandae magni eaque iste possimus fuga sed repellendus nam!</p>
+    <p id="secondPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel voluptas laudantium
+        reprehenderit, natus sint ratione? Quod, pariatur! Rem nesciunt vel velit dicta cupiditate repellat veritatis
+        sit molestias suscipit assumenda!</p>
+    <p id="thirdPara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis odio delectus debitis necessitatibus
+        culpa provident vero. Voluptatum explicabo quasi aperiam porro facilis, fugit, ad corporis quaerat tempora optio
+        eveniet?
+    </p>
+
+    <p id="fourthPara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis odio delectus debitis necessitatibus
+        culpa provident vero. Voluptatum explicabo quasi aperiam porro facilis, fugit, ad corporis quaerat tempora optio
+        eveniet?
+    </p>
+    <p class="classSelector">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius recusandae ipsum deleniti aliquam. Amet ad
+        sapiente beatae fugiat suscipit non, ea a consectetur. Maiores, impedit esse cumque odio non iste.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First card - Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: #DAE2F8;
+            background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
+            background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+            height: 100%;
+            width: 100%;
+            min-height: 593px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            height: 400px;
+            width: 320px;
+            border: 1px solid black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            gap: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            height: 45%;
+            position: relative;
+            bottom: 15px;
+        }
+
+        .card h2 {
+            font-weight: bolder;
+            font-size: 1.5rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .card p {
+            font-family: sans-serif;
+            max-width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="qrcode.jpeg" alt="Qr-code">
+            <h2>Improve your css skills by developing projects</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</body>
+
+</html>

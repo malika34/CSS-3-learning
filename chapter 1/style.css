@@ -1,0 +1,19 @@
+h2 {
+    color: red;
+    background-color: aquamarine;
+}
+
+.classpara {
+    background-color: cadetblue;
+    color: pink;
+}
+
+#idpara {
+    background-color: yellow;
+    color: black;
+}
+
+/* We can use element.class as a selector like this */
+p#idpara {
+    background-color: brown;
+}

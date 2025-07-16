@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Display Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* .box {
+            background-color: red;
+            color: white;
+            width: 200px;
+            height: 200px;
+            border: 2px solid darkblue;
+            padding: 30px;
+        } */
+        /* we can add customize height/width & margin/padding also in block element */
+        .block {
+            border: 2px solid red;
+            width: 450px;
+            height: 100px;
+            padding: 25px;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .inline {
+            border: 2px solid red;
+            width: 450px;
+            height: 100px;
+            padding: 25px;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .inline-block {
+            border: 2px solid red;
+            width: 450px;
+            height: 100px;
+            padding: 25px;
+            margin: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Box sizing border box
+    <div class="box">
+        This box is my favourite!!
+    </div> -->
+    <h1>Display Property in CSS:</h1>
+    <p>We can display our elements using these CSS properties</p>
+    <ul>
+        <li>Block element</li>
+        <li>Inline element</li>
+        <li>Inline-block element</li>
+    </ul>
+    <!-- Block element -->
+    <div class="block">
+        <h2>Block element</h2>
+        <p>Takes full space available in width and leaves a newline before and after the element</p>
+    </div>
+
+    <!-- Inline element -->
+    <span class="inline">
+        <h2>Inline element</h2>
+        <p>Takes only the Space required by the element. No linebreaks before and after setting width/hight not allowed.
+        </p>
+    </span>
+
+    <!-- Inline-block elements -->
+    <span class="inline-block">
+        <h2>Inline-block element</h2>
+        <p>Similar to inline but setting height, width, margin and padding is allowed. Elements can sit next to each
+            other</p>
+    </span>
+</body>
+
+</html>
